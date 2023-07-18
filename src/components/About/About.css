@@ -1,0 +1,40 @@
+.home{
+    /* background-color: #f5f5f5;
+    background-color: #fff; */
+    margin-top: 80px;
+}
+.home__container {
+  top: 30px;
+  /* row-gap: 0.5rem; */
+}
+.bd-container {
+  max-width: 1150px;
+  /* max-width: 1200px; */
+  /* width: calc(100% - 3rem); */
+}
+
+.decoration__data {
+
+  transition: transform 0.3s;
+
+}
+
+.decoration__data:hover {
+  /* Set desired hover effect */
+  transform: scale(1.05);
+}
+
+.decoration__img {
+  max-width: 100%; /* Adjust the max-width as needed */
+  height: auto; /* Adjust the height as needed */
+  border-radius: 50%; /* Apply a round shape to the image */
+  object-fit: cover; /* Ensure the image covers the container */
+}
+
+@media screen and (max-width: 768px) {
+  .home{
+    /* background-color: #fff; */
+    margin-top: 100px;
+    overflow-x: hidden;
+}
+}
